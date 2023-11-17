@@ -88,9 +88,10 @@ input{
     padding: 5px;
     margin-right: 220px;
     outline: none;
+    border: 2px solid;
 }
 #semester{
-    margin-right: 120px;
+    margin-right: 150px;
 }
 #gpaa{
     margin-right: 337px;
@@ -176,7 +177,7 @@ main{
 }
 hr{
     width: 100%;
-    height: 2px;
+    border: 2px solid;
     background-color: color: var(--color-black);
 }
 .CGP-element{
