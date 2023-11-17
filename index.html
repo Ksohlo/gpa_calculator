@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>GPA Calculator</title>
+</head>
+<body>
+    <div id="container">
+        <div id="buttons">
+            <div id="gpa" class="btn active">Calculate GPA</div>
+            <div id="cgpa" class="btn">Calculate CGPA</div> 
+        </div>
+        <div id="inner-container">
+            
+            <div id="gpa-inner" class="in">
+                <h2 id="header">GPA CALCULATOR</h2>
+
+                <header>
+                    <div id="code" class="flex">
+                        <label for="course-code">Course Code :</label>
+                    
+                        <input id="course-code" placeholder="Course code">
+                    </div>
+
+                    <div id="unit" class="flex">
+                        <label for="course-unit">Course Unit :</label>
+                    
+                        <input id="course-unit" type="number" max="10" maxlength="2" placeholder="Course unit">    
+                    </div>
+
+                    <div id="select">
+                        <label for="grade">Grade :</label>
+                        <select id="grade">
+                            <option value="none">--select grade--</option>
+                            <option id="A" value="5">A</option>
+                            <option id="B" value="4">B</option>
+                            <option id="C" value="3">C</option>
+                            <option id="D" value="2">D</option>
+                            <option id="E" value="1">E</option>
+                            <option id="F" value="0">F</option>
+                        </select>
+                    </div>
+                    <button id="add">ADD</button>
+                </header>
+    <!--        <hr>-->
+                <div id="elehead">
+                        <div>Course Code</div>
+                        <div>Course Unit</div>
+                        <div>Grade</div>
+            </div>
+            <hr>
+            <main id="elecont">
+                
+<!--
+                <div class="course-element">
+                    <div class="ccode">MEG 213</div>
+                    <div class="cunit">3</div>
+                    <div class="cgrade">A</div>
+                </div>
+                <div class="course-element">
+                    <div class="ccode">EEG 204</div>
+                    <div class="cunit">1</div>
+                    <div class="cgrade">B</div>
+                </div>
+-->
+            </main>
+            <button id="result">Calculate GPA</button>
+        </div>
+            
+<!--            CGPA section-->
+            
+        <div id="cgpa-inner" class="in">
+                <h2 id="header">CGPA CALCULATOR</h2>
+
+                <header>
+                    <div id="code" class="flex">
+                        <label for="semester">Semester :</label>
+                        
+                        <input id="semester" placeholder="Semester">
+                    </div>
+
+                    <div id="unit" class="flex">
+                        <label for="gpaa">GPA :</label>
+                        
+                        <input id="gpaa" type="number" max="5" min="0" maxlength="5" placeholder="GPA"> 
+                    </div>
+                    
+                    <button id="add-gp">ADD</button>
+                    
+                </header>
+    <!--        <hr>-->
+                <div id="elehead">
+                        <div>Semester</div>
+                        <div>GPA</div>
+                        <div></div>
+            </div>
+            <hr>
+            <main id="elecont-gp">
+                
+
+<!--
+                <div class="CGP-element">
+                    <div class="semester">1</div>
+                    <div class="Cgpp">3.45</div>
+                    <div></div>
+                </div>
+                <div class="CGP-element">
+                    <div class="semester">1</div>
+                    <div class="Cgpp">3.45</div>
+                    <div></div>
+                </div>
+-->
+
+            </main>
+            <button id="cgpresult">Calculate CGPA</button>
+        </div>
+        </div>
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
+
