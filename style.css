@@ -20,7 +20,7 @@ body{
 }
 #container{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     min-height: 100vh;
     min-width: 655px;
     background: linear-gradient(140deg, var(--color-blue), var(--color-purple));
@@ -90,10 +90,10 @@ input{
     outline: none;
 }
 #semester{
-    margin-right: 250px;
+    margin-right: 200px;
 }
 #gpaa{
-    margin-right: 357px;
+    margin-right: 337px;
 }
 #code{
     margin: 5px 0;
