@@ -20,7 +20,7 @@ body{
 }
 #container{
     width: 100%;
-    height: auto;
+    height: 100%;
     min-height: 100vh;
     min-width: 655px;
     background: linear-gradient(140deg, var(--color-blue), var(--color-purple));
